@@ -7,7 +7,7 @@
  *
  * Task 2
  * - invoke the function "swap"
- */
+ *//Answer
 function swap(x, y){
     // Task 1: Add code here
 // Check if x and y are numeric
