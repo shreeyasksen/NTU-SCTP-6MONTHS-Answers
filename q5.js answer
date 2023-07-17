@@ -1,0 +1,17 @@
+Task 1:
+    - Link the file `external.js` to this file.
+    - To test if the linking works, open q5-output.html in the browser and it should show "Hello World!"
+*/
+//Answer :
+// Create a <script> element
+var scriptElement = document.createElement('script');
+scriptElement.src = 'external.js';
+// Append the <script> element to the <head> or <body> of the HTML document
+document.head.appendChild(scriptElement):
+// Task 1: Add code here
+// Do not change the code below
+    document.querySelector("#test").innerHTML = print();
+//Function to be called in the above code
+function print() {
+    return "Hello World!";
+}
