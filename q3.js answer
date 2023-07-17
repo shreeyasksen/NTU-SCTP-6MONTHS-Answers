@@ -1,0 +1,21 @@
+/*
+    Task 1:
+    - Add a new property "breed" with the value "Poodle"
+
+    Task 2:
+    - Implement a for-in to loop through the keys in "dog" object and print it with console.log()
+*/
+//Answer:
+// Task 1: Add code here
+const dog = {
+    petName: "Bobby",
+    breed: "Poodle"
+};
+console.log(dog);
+
+// Task 2: Add code here
+//Here object is used as dog as this is the variable
+//console.log is used for printing the statements
+for (let key in dog){
+    console.log(key);
+}
